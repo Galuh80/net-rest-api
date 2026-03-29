@@ -1,0 +1,41 @@
+# .NET build output
+bin/
+obj/
+
+# .NET user-specific files
+*.user
+*.suo
+.vs/
+
+# Runtime & local database
+*.db
+*.db-shm
+*.db-wal
+
+# ASP.NET uploads
+wwwroot/uploads/
+
+# Environment & secrets
+appsettings.Development.json
+appsettings.*.local.json
+.env
+.env.*
+*.pem
+*.key
+*.crt
+
+# Logs
+*.log
+logs/
+
+# Docker
+.dockerignore
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
