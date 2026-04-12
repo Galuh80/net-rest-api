@@ -13,7 +13,7 @@ namespace RestAPI.Infrastructures.Migrations
             migrationBuilder.AddColumn<string>(
                 name: "ImageUrl",
                 table: "Products",
-                type: "TEXT",
+                type: "text",
                 nullable: true);
         }
 
