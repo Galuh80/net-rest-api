@@ -20,6 +20,7 @@ appsettings.Development.json
 appsettings.*.local.json
 .env
 .env.*
+!.env.example
 *.pem
 *.key
 *.crt

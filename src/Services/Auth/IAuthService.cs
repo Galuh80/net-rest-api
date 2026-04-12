@@ -6,5 +6,7 @@ namespace RestAPI.Services.Auth;
 public interface IAuthService
 {
     Task<User> RegisterAsync(RegisterDto dto);
-    Task<string> LoginAsync(LoginDto dto);
+    Task<AuthResponseDto> LoginAsync(LoginDto dto);
+    Task<AuthResponseDto> RefreshTokenAsync(string refreshToken);
+    Task LogoutAsync(string refreshToken);
 }
